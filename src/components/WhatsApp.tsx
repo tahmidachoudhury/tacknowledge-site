@@ -59,7 +59,7 @@ export function WhatsApp() {
         {({ open }) => (
           <>
             <DisclosureButton
-              onClick={() => window.open("https://wa.me/07356202485", "_blank")}
+              onClick={() => window.open("https://wa.me/+447356202485", "_blank")}
               className="fixed z-40 flex items-center justify-center transition duration-300 bg-green-500 rounded-full shadow-lg right-5 bottom-5 w-14 h-14 focus:outline-none hover:bg-green-600 focus:bg-green-600 ease group"
             >
               <span className="sr-only">Open Contact form Widget</span>
