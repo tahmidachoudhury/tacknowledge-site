@@ -11,6 +11,7 @@ import { Cta } from "@/components/Cta"
 
 import { benefitOne, benefitTwo, benefitThree } from "@/components/data"
 import { Calendly } from "@/components/Calendly"
+import { Maps } from "@/components/Maps"
 export default function Home() {
   return (
     <Container>
@@ -56,6 +57,12 @@ export default function Home() {
 
         <Calendly />
       </div>
+
+      <SectionTitle
+        preTitle="location"
+        title="Visit Our Hayes Centre"
+      ></SectionTitle>
+      <Maps />
     </Container>
   )
 }
