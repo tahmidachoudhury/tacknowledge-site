@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import { ThemeProvider } from "next-themes"
 import "./globals.css"
-
+import { Analytics } from "@vercel/analytics/react"
 import { Navbar } from "@/components/Navbar"
 import { Footer } from "@/components/Footer"
 
@@ -65,6 +65,7 @@ export default function RootLayout({
           <div>{children}</div>
           <Footer />
           <WhatsApp />
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
