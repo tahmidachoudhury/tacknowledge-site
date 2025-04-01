@@ -16,7 +16,7 @@ export function Calendly() {
   return (
     <div
       className="calendly-inline-widget"
-      data-url="https://calendly.com/hatchacademyuk/30min?primary_color=d86e45"
+      data-url="https://calendly.com/contact-tacknowledge/30min?primary_color=f46e16&background_color=f9fdff"
       style={{ minWidth: "320px", height: "700px" }}
     />
   )
