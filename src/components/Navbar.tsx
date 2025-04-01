@@ -22,7 +22,7 @@ export const Navbar = () => {
                 className="w-8"
               />
             </span>
-            <span>Hatch Academy</span>
+            <span>Tacknowledge</span>
           </span>
         </Link>
 

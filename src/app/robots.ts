@@ -10,7 +10,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/api/", "/admin/"],
       },
     ],
-    sitemap: "https://hatchacademy.co.uk/sitemap.xml",
-    host: "https://hatchacademy.co.uk",
+    sitemap: "https://tacknowledge.co.uk/sitemap.xml",
+    host: "https://tacknowledge.co.uk",
   }
 }

@@ -24,7 +24,7 @@ export function Footer() {
                   height="32"
                   className="w-8"
                 />
-                <span>Hatch Academy</span>
+                <span>Tacknowledge</span>
               </Link>
             </div>
 

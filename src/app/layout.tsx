@@ -12,18 +12,18 @@ import { WhatsApp } from "@/components/WhatsApp"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Hatch Academy | Private Tutoring in Hayes, Hillingdon",
+  title: "Tacknowledge | Tuition in Hayes, West London",
   description:
-    "Expert private tutoring services in Hayes, Hillingdon. We offer personalised academic support for primary, secondary, and GCSE students. Join Hatch Academy for quality education and improved grades.",
+    "Located at Global Academy, Hayes, Tacknowledge offers academic and career support for primary, secondary, and GCSE students. Book your free trial lesson today, at Tacknowledge.",
   keywords: [
-    "tutoring",
-    "private tutor",
+    "tuition",
     "Hayes tuition",
+    "private tuition",
     "Hillingdon tutoring",
     "GCSE tuition",
-    "primary school tutor",
-    "secondary school tutor",
-    "Hatch Academy",
+    "primary school tuition",
+    "secondary school tuition",
+    "Tacknowledge",
   ],
   icons: {
     icon: [
@@ -32,16 +32,16 @@ export const metadata: Metadata = {
       { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
     ],
   },
-  authors: [{ name: "Hatch Academy" }],
-  creator: "Hatch Academy",
-  metadataBase: new URL("https://hatchacademy.co.uk"),
+  authors: [{ name: "Tacknowledge" }],
+  creator: "Tacknowledge",
+  metadataBase: new URL("https://tacknowledge.co.uk"),
   openGraph: {
-    title: "Hatch Academy | Private Tutoring in Hayes, Hillingdon",
+    title: "Tacknowledge | Tuition in Hayes, West London",
     description:
-      "Expert private tutoring services in Hayes, Hillingdon. We offer English, Maths and Science tuition for KS2, KS3, GCSE and A-Level students.",
+      "Expert private tuition services in Hayes, Hillingdon. We offer English, Maths and Science tuition for KS2, KS3, GCSE and A-Level students.",
     type: "website",
     locale: "en_GB",
-    siteName: "Hatch Academy",
+    siteName: "Tacknowledge",
   },
   robots: {
     index: true,

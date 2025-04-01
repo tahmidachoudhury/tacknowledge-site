@@ -12,7 +12,7 @@ export const Hero = () => {
               English, Maths and Science Tuition.
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              Hatch Academy is based in Hayes, West London. We are a tuition
+              Tacknowledge is based in Hayes, West London. We are a tuition
               company providing English, Maths and Science services for KS2, KS3
               and GCSE, including A-Level Maths.
             </p>
