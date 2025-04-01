@@ -12,9 +12,9 @@ export const Hero = () => {
               English, Maths and Science Tuition.
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              Tacknowledge is based in Hayes, West London. We are a tuition
-              company providing English, Maths and Science services for KS2, KS3
-              and GCSE, including A-Level Maths.
+              Tacknowledge is a private tuition centre based in Hayes, West
+              London. We are a tuition company providing English, Maths and
+              Science services for KS2, KS3 and GCSE, including A-Level Maths.
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
