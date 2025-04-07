@@ -36,11 +36,16 @@ export default function Home() {
 
       {/* <Video videoId="fZ0D0cnR88E" /> */}
 
-      <SectionTitle preTitle="Testimonials" title="Real Feedback, Real Results">
-        Hear from parents and students about their experiences with us.
-      </SectionTitle>
+      <div id="testimonials">
+        <SectionTitle
+          preTitle="Testimonials"
+          title="Real Feedback, Real Results"
+        >
+          Hear from parents and students about their experiences with us.
+        </SectionTitle>
 
-      <Testimonials />
+        <Testimonials />
+      </div>
 
       <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
         Answer your customers possible questions here, it will increase the
