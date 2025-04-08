@@ -15,7 +15,7 @@ export default function About() {
         preTitle="tacknowledge"
         title="Hayes Tuition Centre"
       ></SectionTitle>
-      <div className="relative w-full xs:h-80 lg:h-[800px]">
+      <div className="relative w-full h-80 lg:h-[800px]">
         <Image
           src="/img/global-academy-sunny.jpg"
           fill
@@ -80,7 +80,7 @@ export default function About() {
           </TextParagraph>
         </div>
         <div className="flex items-center justify-center w-full lg:w-1/2 lg:order-1">
-          <div className="relative w-full xs:h-80 lg:h-[600px]">
+          <div className="relative w-full h-80 lg:h-[600px]">
             <Image
               src="/img/jibreel-lesson.jpg"
               fill
