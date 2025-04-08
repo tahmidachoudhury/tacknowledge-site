@@ -12,6 +12,7 @@ import { Cta } from "@/components/Cta"
 import { benefitOne, benefitTwo, benefitThree } from "@/components/data"
 import { Calendly } from "@/components/Calendly"
 import { Maps } from "@/components/Maps"
+
 export default function Home() {
   return (
     <Container>

@@ -1,5 +1,3 @@
-"use client"
-
 import { Container } from "@/components/Container"
 import Image from "next/image"
 import { SectionTitle } from "@/components/SectionTitle"
@@ -7,6 +5,28 @@ import { TextParagraph } from "@/components/TextParagraph"
 import Link from "next/link"
 import { Mark } from "@/components/Testimonials"
 import { Maps } from "@/components/Maps"
+
+export const metadata = {
+  title: "Hayes Tuition Centre | Tacknowledge",
+  description:
+    "Boost your child's academic performance at our Hayes-based tuition centre. Expert tutors, tailored support.",
+  keywords: [
+    "tuition",
+    "tacknowledge",
+    "Hayes tuition",
+    "Hayes Town",
+    "Hayes",
+    "Hayes and Harlington Station",
+    "Global Academy",
+    "private tuition",
+    "Hillingdon tutoring",
+    "GCSE tuition",
+    "KS2 tuition",
+    "West Drayton",
+    "Ealing",
+    "Uxbridge",
+  ],
+}
 
 export default function About() {
   return (
@@ -24,7 +44,7 @@ export default function About() {
         />
       </div>
 
-      <Container className="flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap ">
+      <Container className="flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap px-0">
         <div className="flex flex-col lg:w-1/2">
           <SectionTitle
             align="left"

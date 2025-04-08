@@ -1,9 +1,13 @@
-"use client"
-
 import { Container } from "@/components/Container"
 import Image from "next/image"
 import { SectionTitle } from "@/components/SectionTitle"
 import { TextParagraph } from "@/components/TextParagraph"
+
+export const metadata = {
+  title: "About Us | Tacknowledge",
+  description:
+    "Learn more about our mission, our expert tutors, and how Tacknowledge is helping students unlock their potential.",
+}
 
 export default function About() {
   return (
@@ -26,7 +30,7 @@ export default function About() {
         title="How did we get here?"
       ></SectionTitle>
 
-      <Container className="flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap ">
+      <Container className="flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap px-0">
         <div className="flex flex-col lg:w-1/2">
           <TextParagraph>
             Founded in 2023, Tacknowledge set out to provide high-quality

@@ -17,7 +17,9 @@ export const metadata: Metadata = {
     "Located at Global Academy, Hayes, Tacknowledge offers academic and career support for primary, secondary, and GCSE students. Book your free trial lesson today, at Tacknowledge.",
   keywords: [
     "tuition",
+    "tacknowledge",
     "Hayes tuition",
+    "hayes tuition",
     "private tuition",
     "Hillingdon tutoring",
     "GCSE tuition",
