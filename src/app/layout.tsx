@@ -8,6 +8,7 @@ import { Navbar } from "@/components/Navbar"
 import { Footer } from "@/components/Footer"
 
 import { WhatsApp } from "@/components/WhatsApp"
+import { DiscountPopup } from "@/components/DiscountOffer"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -64,6 +65,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light">
+          <DiscountPopup />
           <Navbar />
           <div>{children}</div>
           <Footer />

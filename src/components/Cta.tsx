@@ -1,5 +1,5 @@
-import React from "react";
-import { Container } from "@/components/Container";
+import React from "react"
+import { Container } from "@/components/Container"
 
 export const Cta = () => {
   return (
@@ -25,5 +25,5 @@ export const Cta = () => {
         </div>
       </div>
     </Container>
-  );
-};
+  )
+}
