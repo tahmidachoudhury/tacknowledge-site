@@ -63,9 +63,16 @@ export function DiscountPopup({
                       encouragement
                     </span>
                   </div>
+
                   <DialogClose asChild>
-                    <Button variant="secondary" className="w-full">
-                      Book a Call
+                    <Button
+                      onClick={() =>
+                        window.open("https://wa.me/+447356202485", "_blank")
+                      }
+                      variant="secondary"
+                      className="w-full"
+                    >
+                      Contact us
                     </Button>
                   </DialogClose>
                   <DialogClose asChild>
@@ -73,7 +80,6 @@ export function DiscountPopup({
                       Maybe later
                     </Button>
                   </DialogClose>
-
                   {/* <div className="text-center text-sm">
                     Don&apos;t have an account?{" "}
                     <a href="#" className="underline underline-offset-4">

@@ -7,6 +7,7 @@ import { Disclosure } from "@headlessui/react"
 export const Navbar = () => {
   const navigation = [
     { route: "about-us", title: "About Us" },
+    { route: "/", title: "Home" },
     { route: "hayes-tuition-centre", title: "Our Hayes Centre" },
   ]
 
@@ -76,7 +77,7 @@ export const Navbar = () => {
                     <Link
                       key={index}
                       href={item.route}
-                      className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-orange-500 focus:text-orange-500 focus:bg-orange-100 dark:focus:bg-gray-800 focus:outline-none"
+                      className="w-full px-4 py-2  text-gray-500 rounded-md dark:text-gray-300 hover:text-orange-500 focus:text-orange-500 focus:bg-orange-100 dark:focus:bg-gray-800 focus:outline-none"
                     >
                       {item.title}
                     </Link>
