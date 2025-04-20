@@ -8,6 +8,7 @@ export const Navbar = () => {
   const navigation = [
     { route: "about-us", title: "About Us" },
     { route: "/", title: "Home" },
+    { route: "/contact-us", title: "Contact Us" },
     { route: "hayes-tuition-centre", title: "Our Hayes Centre" },
   ]
 
