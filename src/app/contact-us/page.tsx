@@ -11,6 +11,12 @@ import {
   Linkedin,
 } from "lucide-react"
 
+export const metadata = {
+  title: "Contact Us | Tacknowledge",
+  description:
+    "Get in touch with Tacknowledge — the leading tuition service in town. We're here to answer your questions and help your child succeed.",
+}
+
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 
@@ -121,9 +127,9 @@ export default function ContactPage() {
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
-                  allowfullscreen
+                  allowFullScreen
                   loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
+                  referrerPolicy="no-referrer-when-downgrade"
                 ></iframe>
               </div>
               <p className="mt-4 text-muted-foreground">
