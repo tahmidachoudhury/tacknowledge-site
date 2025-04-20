@@ -1,5 +1,3 @@
-"use client"
-
 import Link from "next/link"
 import {
   Mail,
@@ -19,6 +17,7 @@ export const metadata = {
 
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
+import WhatsappButton from "./WhatsappButton"
 
 export default function ContactPage() {
   return (
@@ -26,8 +25,8 @@ export default function ContactPage() {
       <div className="mb-8 text-center">
         <h1 className="text-4xl font-bold tracking-tight">Contact Us</h1>
         <p className="mt-4 text-lg text-muted-foreground">
-          We're here to help you achieve academic excellence. Reach out to us
-          today.
+          We&apos;re here to help you achieve academic excellence. Reach out to
+          us today.
         </p>
       </div>
 
@@ -142,16 +141,8 @@ export default function ContactPage() {
           <Card>
             <CardContent className="p-6">
               <h2 className="mb-4 text-2xl font-semibold">Send Us a Message</h2>
-              <Button
-                variant="secondary"
-                onClick={() =>
-                  window.open("https://wa.me/+447356202485", "_blank")
-                }
-                className="w-full"
-                size="lg"
-              >
-                Contact Us Now
-              </Button>
+              <WhatsappButton />
+
               <p className="mt-4 text-center text-sm text-muted-foreground">
                 We typically respond within minutes.
               </p>
