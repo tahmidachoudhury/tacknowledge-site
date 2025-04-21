@@ -55,7 +55,7 @@ export default function Home() {
 
       <Faq />
       {/* <Cta /> */}
-      <div id="book-a-meeting">
+      <div id="book-a-meeting" className="bg-background">
         <SectionTitle preTitle="Book a meeting" title="Ready to meet?">
           Visit our tuition centre this weekend at Global Academy and find out
           how we can help your child.

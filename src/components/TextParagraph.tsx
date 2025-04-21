@@ -11,7 +11,7 @@ export const TextParagraph = ({
 }: TextParagraphPrompts) => {
   return (
     <p
-      className={`w-full py-4 text-lg leading-normal text-gray-500 lg:text-xl xl:text-xl dark:text-gray-300 ${className}`}
+      className={`w-full py-4 text-lg leading-normal text-muted-foreground  lg:text-xl xl:text-xl ${className}`}
     >
       {children}
     </p>

@@ -15,7 +15,7 @@ export function Footer() {
               {" "}
               <Link
                 href="/"
-                className="flex items-center space-x-2 text-2xl font-medium dark:text-gray-100 text-theme"
+                className="flex items-center space-x-2 text-2xl font-medium text-foreground text-theme"
               >
                 <Image
                   src="/img/logo.svg"
