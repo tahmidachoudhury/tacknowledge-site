@@ -4,8 +4,8 @@ import React from "react"
 import { Container } from "@/components/Container"
 
 export function Footer() {
-  const navigation = ["Product", "Features", "Pricing", "Company", "Blog"]
-  const legal = ["Terms", "Privacy", "Legal"]
+  const navigation = ["About Us", "Home", "Contact Us", "Our Hayes Centre"]
+
   return (
     <div className="relative">
       <Container>
@@ -51,7 +51,7 @@ export function Footer() {
             </div> */}
           </div>
 
-          {/* <div>
+          <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {navigation.map((item, index) => (
                 <Link
@@ -64,7 +64,7 @@ export function Footer() {
               ))}
             </div>
           </div>
-          <div>
+          {/* <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {legal.map((item, index) => (
                 <Link
@@ -77,39 +77,36 @@ export function Footer() {
               ))}
             </div>
           </div> */}
-          {/* <div className="">
+          <div className="">
             <div>Follow us</div>
             <div className="flex mt-5 space-x-5 text-gray-400 dark:text-gray-500">
               <a
-                href="https://twitter.com/web3templates"
+                href="https://www.tiktok.com/@tacknowledge?_t=ZN-8wGvOL85mbe&_r=1"
                 target="_blank"
                 rel="noopener"
               >
-                <span className="sr-only">Twitter</span>
-                <Twitter />
+                <span className="sr-only">Tiktok</span>
+                <Tiktok />
               </a>
+
               <a
-                href="https://facebook.com/web3templates"
-                target="_blank"
-                rel="noopener"
-              >
-                <span className="sr-only">Facebook</span>
-                <Facebook />
-              </a>
-              <a
-                href="https://instagram.com/web3templates"
+                href="https://www.instagram.com/tacknowledge_?igsh=aWVrd2FxY2FmY2wz"
                 target="_blank"
                 rel="noopener"
               >
                 <span className="sr-only">Instagram</span>
                 <Instagram />
               </a>
-              <a href="https://linkedin.com/" target="_blank" rel="noopener">
+              <a
+                href="https://www.linkedin.com/company/tacknowledge"
+                target="_blank"
+                rel="noopener"
+              >
                 <span className="sr-only">Linkedin</span>
                 <Linkedin />
               </a>
             </div>
-          </div> */}
+          </div>
         </div>
 
         {/* <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
@@ -129,15 +126,15 @@ export function Footer() {
   )
 }
 
-const Twitter = ({ size = 24 }) => (
+const Tiktok = ({ size = 24 }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={size}
     height={size}
-    viewBox="0 0 24 24"
+    viewBox="0 0 19 16"
     fill="currentColor"
   >
-    <path d="M24 4.37a9.6 9.6 0 0 1-2.83.8 5.04 5.04 0 0 0 2.17-2.8c-.95.58-2 1-3.13 1.22A4.86 4.86 0 0 0 16.61 2a4.99 4.99 0 0 0-4.79 6.2A13.87 13.87 0 0 1 1.67 2.92 5.12 5.12 0 0 0 3.2 9.67a4.82 4.82 0 0 1-2.23-.64v.07c0 2.44 1.7 4.48 3.95 4.95a4.84 4.84 0 0 1-2.22.08c.63 2.01 2.45 3.47 4.6 3.51A9.72 9.72 0 0 1 0 19.74 13.68 13.68 0 0 0 7.55 22c9.06 0 14-7.7 14-14.37v-.65c.96-.71 1.79-1.6 2.45-2.61z" />
+    <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z" />
   </svg>
 )
 
